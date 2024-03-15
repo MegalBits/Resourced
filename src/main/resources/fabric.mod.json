@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "resourced",
+	"version": "${version}",
+	"name": "Resourced",
+	"description": "Makes datagen a little more streamlined",
+	"authors": [
+		"Megal"
+	],
+	"contact": {
+
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/resourced/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-datagen": [
+			"net.megal.ResourcedDataGen"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
